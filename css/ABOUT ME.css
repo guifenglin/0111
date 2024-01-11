@@ -1,0 +1,61 @@
+body {
+    font-family: system-ui;
+    background: #ad8566;
+    background-repeat:no-repeat;
+    background-size:cover;
+    color: white;
+    text-align: center;
+    list-style:none;
+    font-size: 25px;
+}
+#img_01{
+   margin-top: 5px; /* 或使用 position 屬性 */
+       margin-left: 10px; /* 或使用 position 屬性 */
+}
+  .info {position: absolute; left: 0; right: 0; bottom: 0; font-size: 12px; color: #ccc; line-height: 2em; text-align: center;}
+  #top{
+     padding-left: 0%;
+     list-style-type: none;
+  }
+  #top li{
+     display: inline-block;
+  }
+  #top li a{
+     display: block;
+     padding: 10px 5px;
+     text-decoration: none;
+     color: #2f2c2c;
+  }
+  #top li a:hover{
+     color:#ccc
+ }
+
+
+.info {position: absolute; left: 0; right: 0; bottom: 0; font-size: 12px; color: #ccc; line-height: 2em; text-align: center;}
+ #top{
+    padding-left: 0%;
+    list-style-type: none;
+ }
+ #top li{
+    display: inline-block;
+ }
+ #top li a{
+    display: block;
+    padding: 5px 30px;
+    text-decoration: none;
+ }
+ #nav li{
+    list-style:none;
+ }
+ 
+ .link-container{
+   font-family:"Gill Sans", sans-serif;
+   align-items: center;
+   justify-content: center;
+   margin: 0px 0px 0px 0px;
+}
+.home {
+   position: absolute; 
+   top: 60px;
+   left: 60px;
+}
